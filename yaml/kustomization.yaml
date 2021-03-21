@@ -1,6 +1,6 @@
 resources:
-  - mysql-deployment.yaml
-  - wordpress-deployment.yaml
+  - backend.yaml
+  - frontend.yaml
 secretGenerator:
 - name: mysql-pass
   literals:
